@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 3rem;
+}
+
+.App-header p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.App-header p.loading {
+  color: #ffa500;
+}
+
+.App-header p.up {
+  color: #00ff00;
+}
+
+.App-header p.down {
+  color: #ff0000;
+}
+
+.App-header p.error {
+  color: #ff0000;
+}
